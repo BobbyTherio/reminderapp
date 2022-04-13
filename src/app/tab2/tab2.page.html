@@ -1,0 +1,16 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Tab 2
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-button id="small" color="success" (click)="firstAlert()" fill="outline">April 18, 2022</ion-button>
+  <ion-button id="small"color="warning" (click)="secondAlert()">May 2, 2022</ion-button>
+  <ion-button id="small" color="danger" (click)="thirdAlert()">May 3, 2022</ion-button>
+  <br>
+  <ion-button id="large" size="large" color="medium" (click)="secondAlert()" fill="solid">May 2, 2022</ion-button>
+  <ion-button id="large" size="large" color="dark" (click)="firstAlert()" fill="outline">April 18, 2022</ion-button>
+</ion-content>
